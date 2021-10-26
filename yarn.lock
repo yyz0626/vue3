@@ -7,6 +7,16 @@
   "resolved" "http://registry.m.jd.com/@babel/parser/download/@babel/parser-7.15.8.tgz"
   "version" "7.15.8"
 
+"@element-plus/icons@^0.0.11":
+  "integrity" "sha1-mxh8ACd0VIuRGFDRf6X8L5pRX1c="
+  "resolved" "http://registry.m.jd.com/@element-plus/icons/download/@element-plus/icons-0.0.11.tgz"
+  "version" "0.0.11"
+
+"@popperjs/core@^2.10.2":
+  "integrity" "sha1-B5jAM1Hw3qGlpMq93yalWny+5ZA="
+  "resolved" "http://registry.m.jd.com/@popperjs/core/download/@popperjs/core-2.10.2.tgz"
+  "version" "2.10.2"
+
 "@vitejs/plugin-vue@^1.9.3":
   "integrity" "sha1-k9YYk85scj0CCa8Eg+yLkaLNgR8="
   "resolved" "http://registry.m.jd.com/@vitejs/plugin-vue/download/@vitejs/plugin-vue-1.9.3.tgz"
@@ -53,6 +63,13 @@
   dependencies:
     "@vue/compiler-dom" "3.2.20"
     "@vue/shared" "3.2.20"
+
+"@vue/composition-api@^1.0.0-rc.1", "@vue/composition-api@^1.1.0":
+  "integrity" "sha1-S+/O/A4cVw/Qh5oti4+QHzpONdA="
+  "resolved" "http://registry.m.jd.com/@vue/composition-api/download/@vue/composition-api-1.2.4.tgz"
+  "version" "1.2.4"
+  dependencies:
+    "tslib" "^2.3.0"
 
 "@vue/devtools-api@^6.0.0-beta.18":
   "integrity" "sha1-+OiAWdqkJFFZkkJqDH6lzeB+mb8="
@@ -107,10 +124,50 @@
   "resolved" "http://registry.m.jd.com/@vue/shared/download/@vue/shared-3.2.20.tgz"
   "version" "3.2.20"
 
+"@vueuse/core@~6.1.0":
+  "integrity" "sha1-gTfCkc9JsRwt7aTVB5CW5Vs2/Cg="
+  "resolved" "http://registry.m.jd.com/@vueuse/core/download/@vueuse/core-6.1.0.tgz"
+  "version" "6.1.0"
+  dependencies:
+    "@vueuse/shared" "6.1.0"
+    "vue-demi" "*"
+
+"@vueuse/shared@6.1.0":
+  "integrity" "sha1-E3X9Qazv5S+aGELzxqijSHhlNbo="
+  "resolved" "http://registry.m.jd.com/@vueuse/shared/download/@vueuse/shared-6.1.0.tgz"
+  "version" "6.1.0"
+  dependencies:
+    "vue-demi" "*"
+
+"async-validator@^4.0.3":
+  "integrity" "sha1-A0oP0hA6ay6/AQ2nUYO+wpkkev4="
+  "resolved" "http://registry.m.jd.com/async-validator/download/async-validator-4.0.7.tgz"
+  "version" "4.0.7"
+
 "csstype@^2.6.8":
   "integrity" "sha1-mAqLUwhfNK8xNBCvBk8r0kF4Qhg="
   "resolved" "http://registry.m.jd.com/csstype/download/csstype-2.6.18.tgz"
   "version" "2.6.18"
+
+"dayjs@^1.10.7":
+  "integrity" "sha1-LPX5Gt0oEWdIRAhmoKHSbzps5Gg="
+  "resolved" "http://registry.m.jd.com/dayjs/download/dayjs-1.10.7.tgz"
+  "version" "1.10.7"
+
+"element-plus@^1.1.0-beta.24":
+  "integrity" "sha1-hYsFky68C+FUGdOXTRW+Kk9LaWw="
+  "resolved" "http://registry.m.jd.com/element-plus/download/element-plus-1.1.0-beta.24.tgz"
+  "version" "1.1.0-beta.24"
+  dependencies:
+    "@element-plus/icons" "^0.0.11"
+    "@popperjs/core" "^2.10.2"
+    "@vueuse/core" "~6.1.0"
+    "async-validator" "^4.0.3"
+    "dayjs" "^1.10.7"
+    "lodash" "^4.17.21"
+    "memoize-one" "^5.2.1"
+    "normalize-wheel-es" "^1.1.0"
+    "resize-observer-polyfill" "^1.5.1"
 
 "esbuild-windows-64@0.13.9":
   "integrity" "sha1-EDrT8T4aDkSTS5HzWOgd0gG4azQ="
@@ -164,6 +221,11 @@
   dependencies:
     "has" "^1.0.3"
 
+"lodash@^4.17.21":
+  "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw="
+  "resolved" "http://registry.m.jd.com/lodash/download/lodash-4.17.21.tgz"
+  "version" "4.17.21"
+
 "magic-string@^0.25.7":
   "integrity" "sha1-P0l9b9NMZpxnmNy4IfLvMfVEUFE="
   "resolved" "http://registry.m.jd.com/magic-string/download/magic-string-0.25.7.tgz"
@@ -171,10 +233,20 @@
   dependencies:
     "sourcemap-codec" "^1.4.4"
 
+"memoize-one@^5.2.1":
+  "integrity" "sha1-gzeqPEM1WBg57AHD1ZQJDOvo8A4="
+  "resolved" "http://registry.m.jd.com/memoize-one/download/memoize-one-5.2.1.tgz"
+  "version" "5.2.1"
+
 "nanoid@^3.1.30":
   "integrity" "sha1-Y/k8xUjSoRPcXfvGO/oJ4rm2Q2I="
   "resolved" "http://registry.m.jd.com/nanoid/download/nanoid-3.1.30.tgz"
   "version" "3.1.30"
+
+"normalize-wheel-es@^1.1.0":
+  "integrity" "sha1-2wF68d1dTGIiwHrji8IkBJ0lhh4="
+  "resolved" "http://registry.m.jd.com/normalize-wheel-es/download/normalize-wheel-es-1.1.0.tgz"
+  "version" "1.1.0"
 
 "path-parse@^1.0.6":
   "integrity" "sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU="
@@ -194,6 +266,11 @@
     "nanoid" "^3.1.30"
     "picocolors" "^1.0.0"
     "source-map-js" "^0.6.2"
+
+"resize-observer-polyfill@^1.5.1":
+  "integrity" "sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ="
+  "resolved" "http://registry.m.jd.com/resize-observer-polyfill/download/resize-observer-polyfill-1.5.1.tgz"
+  "version" "1.5.1"
 
 "resolve@^1.20.0":
   "integrity" "sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU="
@@ -225,6 +302,11 @@
   "resolved" "http://registry.m.jd.com/sourcemap-codec/download/sourcemap-codec-1.4.8.tgz"
   "version" "1.4.8"
 
+"tslib@^2.3.0":
+  "integrity" "sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE="
+  "resolved" "http://registry.m.jd.com/tslib/download/tslib-2.3.1.tgz"
+  "version" "2.3.1"
+
 "vite@^2.5.10", "vite@^2.6.4":
   "integrity" "sha1-INPY9LT+OJBKLkJTVqqxyyMyXhI="
   "resolved" "http://registry.m.jd.com/vite/download/vite-2.6.11.tgz"
@@ -237,6 +319,11 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
+"vue-demi@*":
+  "integrity" "sha1-YQGZL+RyTPVjQBihbpU/MFLpTio="
+  "resolved" "http://registry.m.jd.com/vue-demi/download/vue-demi-0.11.4.tgz"
+  "version" "0.11.4"
+
 "vue-router@^4.0.12":
   "integrity" "sha1-jceSzd9bsavMOQj5BkE23n4TxGA="
   "resolved" "http://registry.m.jd.com/vue-router/download/vue-router-4.0.12.tgz"
@@ -244,7 +331,7 @@
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.18"
 
-"vue@^3.0.0", "vue@^3.0.2", "vue@^3.2.16", "vue@3.2.20":
+"vue@^2.6.0 || ^3.2.0", "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.16", "vue@>= 2.5 < 3", "vue@3.2.20":
   "integrity" "sha1-lA+KqL8+O+eCQ8pYK61B/NRa4+Y="
   "resolved" "http://registry.m.jd.com/vue/download/vue-3.2.20.tgz"
   "version" "3.2.20"
